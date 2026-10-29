@@ -30,6 +30,14 @@ yarn-error.log*
 .env*
 .dev.vars*
 *.pem
+*.key
+*.jks
+*.keystore
+*.p12
+*.pfx
+local.properties
+/.gradle/
+/.idea/
 
 # Checkout-local tool state
 /.wrangler/

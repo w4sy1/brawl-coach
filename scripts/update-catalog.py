@@ -21,4 +21,8 @@ for x in b:
 for path,value in data.items():
  if path.startswith('game/'):(cache/('bc-'+path.removeprefix('game/').replace('/','-')+'.json')).write_text(json.dumps(value))
 (cache/'bc-maps.json').write_text(json.dumps(data['game/csv_logic/maps']))
-os.environ['BC_GAME_CACHE']=str(cache);runpy.run_path(str(root/'scripts/prepare-game-data.py'),run_name='__main__');print('Refreshed',now,len(b),'profiles',len(m),'maps')
+os.environ['BC_GAME_CACHE']=str(cache);runpy.run_path(str(root/'scripts/prepare-game-data.py'),run_name='__main__')
+subprocess.run(['node',str(root/'scripts/prepare-abilities.mjs')],check=True,cwd=root)
+subprocess.run(['node',str(root/'tests/effect-coverage.cjs'),'--write'],check=True,cwd=root)
+subprocess.run(['node',str(root/'scripts/audit-locales.cjs'),'--write'],check=True,cwd=root)
+print('Refreshed',now,len(b),'profiles',len(m),'maps')

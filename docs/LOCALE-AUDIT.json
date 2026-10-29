@@ -1,0 +1,118 @@
+{
+  "sourceDate": "2026-10-23",
+  "languages": {
+    "pl": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 33
+    },
+    "en": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 1300
+    },
+    "de": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 59
+    },
+    "fr": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 43
+    },
+    "ru": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 0
+    },
+    "es": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 10
+    },
+    "ko": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 1
+    },
+    "it": {
+      "uiKeys": 208,
+      "brawlers": 109,
+      "bios": 109,
+      "equipment": 436,
+      "maps": 1300,
+      "missingTips": [
+        {
+          "id": 16000088,
+          "name": "Buzz Lightyear"
+        }
+      ],
+      "mapNamesEqualToEnglish": 20
+    }
+  },
+  "note": "Identical map names may be official proper names; equality alone is not evidence of a missing translation. Missing game text is shown with an explicit fallback. This is a structural audit, not native-speaker linguistic approval."
+}
